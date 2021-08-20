@@ -1,0 +1,38 @@
+.navbar{background: white;}
+a{color: #333333;font-size: 1.5rem;text-decoration: none;}
+a:hover{text-decoration: none;}
+.container{margin-top: 0px;}
+.icon-bar{background: #000000;}
+*{margin: 0; padding: 0;list-style: none;}
+body{background: #F5F5F5;list-style: none;}
+.dropdown-menu li{height: 4rem;}
+.dropdown-menu li:nth-of-type(1){margin-top: 2rem;}
+.dropdown-menu li a:hover{text-decoration: underline; margin-bottom: 1rem;color: plum;}
+#carousel-example-generic{margin-top: -0.01rem;}
+#div2{margin-top: 5rem; margin-left: 0px; margin-right: 0px;padding-left: 0px;padding-right: 0px;}
+#div3{margin-top: 4rem;}
+#div5{margin-top: 3rem;}
+#div7 li{float: left; margin-left: 30px; height: 5rem;}
+.thumbnail{border: none; padding: 0; background: none; text-align: center;}
+#div8{background: black;}
+#div8 li{height: 5rem; text-align: center;line-height: 5rem;}
+#div8 a{color: #F5F5F5;}
+#div8 li:nth-of-type(1) a{font-weight: bolder;}
+#div3 a,#div5 a,#div7 a{font-size: 3rem;text-align: center; line-height: 3rem;}
+video{margin-left: 320px; margin-bottom: 40px; margin-top: -4rem;}
+@media screen and (max-width: 751px) {
+    .video {
+        width: 60%;
+		height: 60%;
+		margin-left: 150px; margin-bottom: 40px; margin-top: 0rem;
+    }
+}
+#div4 img,#div6 img{
+        width: 100%;
+        height: 100%;
+        transition: all 0.6s;    //设置动画执行的时间为0.6s
+        cursor: pointer;
+		}
+#div4 img:hover,#div6 img:hover{
+		transform: scale(1.02);     //设置图片按照比例放大1.2倍
+       }
