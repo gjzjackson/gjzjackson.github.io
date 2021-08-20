@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/denglu.css"/>
+		<link rel="icon" href="imgs/logo.ico"/>
+		<title>注册</title>
+		<script src="bootstrap/js/jquery-3.4.1.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+	<div>
+		<script src="js/head.js"></script>
+	</div>
+    <section>
+        
+        <!-- 登录 -->
+
+        <div class="container">
+            <div class="user singinBx">
+                <div class="imgBx"><img src="imgs/lyq/nr/2.jpg" alt=""></div>
+                <div class="formBx">
+                    <form action="">
+                        <h2>注册</h2>
+                        <input type="text" name="" placeholder="用户名">
+                        <input type="email" name="" placeholder="邮箱地址">
+                        <input type="password" name="" placeholder="密码">
+                        <input type="password" name="" placeholder="再次输入密码">
+                        <input type="submit" name="" value="注册">
+                        <p class="signup">已有账号？<a href="denglu.html" onclick="topggleForm();">登录</a></p>
+                    </form>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+	<div>
+		<script src="js/foot.js"></script>
+	</div>
+	
+    <script type="text/javascript">
+        function topggleForm(){
+            var container = document.querySelector('.container');
+            container.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
+
